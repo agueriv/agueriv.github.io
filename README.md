@@ -1,2 +1,2 @@
-# <a href="https://agueriv.github.io/" target="_blank">agueriv.github.io</a>
+# [agueriv.github.io](https://agueriv.github.io/)
 Repositorio para Proyecto de LMSGI 1º DAW
