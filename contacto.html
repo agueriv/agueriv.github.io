@@ -31,9 +31,9 @@
 		</header>
 		
 		<nav id="menu" style="position: absolute; top: 38px; right: 16%;">
-			<a href="index.html" style="margin-right: 10px; text-decoration: none;">Inicio</a>
-			<a href="productos.html" style="margin-right: 10px; text-decoration: none;">Productos</a>
-			<a href="dondeestamos.html" style="margin-right: 10px; text-decoration: none;">Donde estamos</a>
+			<a href="index.html" style="margin-right: 15px; text-decoration: none;">Inicio</a>
+			<a href="productos.html" style="margin-right: 15px; text-decoration: none;">Productos</a>
+			<a href="dondeestamos.html" style="margin-right: 15px; text-decoration: none;">Donde estamos</a>
 			<a href="contacto.html" style="text-decoration: none;">Contacto</a>
 		</nav>
 		
@@ -42,21 +42,39 @@
 				<img src="img/foto-contacto.jpg" width="500px" alt="">
 			</div>
 			<div id="formulario" style="position: absolute; top: 200px; right: 30%;">
+				<h2 style="position: absolute; top: -60px; left: -20px; width: 400px; font-family: 'Montserrat', sans-serif; ">CONTACTA CON NOSOTROS!!</h2>
 				<form style="font-family: 'Montserrat', sans-serif; font-size: 125%;">
-					<label for="nombre"><b>Nombre:</b></label><br>
-					<input type="text" placeholder="Introduce tu nombre" id="nombre" name="user_name" value=""><br><br>
-					<label for="apellido"><b>Apellidos</b></label><br>
-					<input type="text" placeholder="Introduce tus apellidos" id="apellido" name="user_apellido" value=""><br><br>
-					<label for="email"><b>Email</b></label><br>
-					<input type="email" placeholder="Introduce tu dirección de email" id="email" name="user_email" value=""><br><br>
-					<label for="genero"><b>Género</b></label><br>
-					<input type="radio" id="masculino" name="genero" value="Masculino">
-					<label for="masculino" style="font-size: 70%;">Masculino</label><br>
-					<input type="radio" id="femenino" name="genero" value="Femenino">
-					<label for="femenino" style="font-size: 70%;">Femenino</label><br>
-					<input type="radio" id="otro" name="genero" value="Otro">
-					<label for="otro" style="font-size: 70%;">Otro</label>
-					
+					<div>
+						<label for="nombre"><b>Nombre *</b></label><br>
+						<input type="text" placeholder="Introduce tu nombre" id="nombre" name="user_name" value="" style="border-color: rgb(237, 237, 237);"><br><br>
+					</div>
+					<div  style="position: absolute; top: 0; left: 120%;">
+						<label for="apellido"><b>Apellidos</b></label><br>
+						<input type="text" placeholder="Introduce tus apellidos" id="apellido" name="user_apellido" value=""style="border-color: rgb(237, 237, 237);"><br><br>
+					</div>
+					<div style="position: absolute; left: 120%;">
+						<label for="email"><b>Email *</b></label><br>
+						<input type="email" placeholder="Introduce tu email" id="email" name="user_email" value=""style="border-color: rgb(237, 237, 237);"><br><br>
+					</div>			
+					<div>
+						<label for="genero"><b>Género *</b></label><br>
+						<input type="radio" id="masculino" name="genero" value="Masculino">
+						<label for="masculino" style="font-size: 70%;">Masculino</label><br>
+						<input type="radio" id="femenino" name="genero" value="Femenino">
+						<label for="femenino" style="font-size: 70%;">Femenino</label><br>
+						<input type="radio" id="otro" name="genero" value="Otro">
+						<label for="otro" style="font-size: 70%;">Otro</label><br><br>
+					</div>	
+					<div style="position: absolute;">
+						<label for="consulta"><b>Consulta</b></label><br>
+						<textarea rows="5" cols="39" placeholder="Escríbeme el motivo de tu contacto"style="border-color: rgb(237, 237, 237);"></textarea>
+					</div>	
+					<div style="position: absolute; top: 325px;">
+						<button type="submit"style="border-color: rgb(237, 237, 237);">CONTACTAR</button>
+					</div>
+					<div>
+						<label for=""></label>
+					</div>
 				</form>
 			</div>
 		</section>
