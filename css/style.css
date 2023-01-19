@@ -3,6 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/*IMPORTACIÓN DE FUENTE PERSONALIZADA*/
+@font-face  {font-family: 'Eleven'; src: url(../fonts/ElevenFit-Regular.ttf);}
+@font-face  {font-family: 'ElevenItalic'; src: url(../fonts/ElevenFit-Italic.ttf);}
+@font-face  {font-family: 'ElevenOutline'; src: url(../fonts/ElevenFit-Outline.ttf);}
+@font-face  {font-family: 'ElevenItOutline'; src: url(../fonts/ElevenFit-ItalicOutline.ttf);}
 /*!! CABECERA !!*/
 
 /*【 Menú 】*/
@@ -69,6 +74,9 @@ footer {
 	background: #fff;
 	border-top: 5px solid #F80303;
 }
+footer h2 {
+	font-family: 'Eleven';
+}
 /*Columna 1 de Footer*/
 #col1Footer {
 	width: 33.333333333%;
@@ -91,6 +99,10 @@ footer {
 /*Iconos redes sociales*/
 .margin-right-8x100 {
 	margin-right: 8%;
+}
+
+.rrss:hover {
+	transform: scale(1.1);
 }
 /*Columna 3 de Footer*/
 #col3Footer {
