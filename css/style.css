@@ -23,6 +23,9 @@ nav {
 #logo {
 	float: left;
 }
+#logo:hover {
+	transform: scale(1.01);
+}
 
 #menu {
 	float: right;
