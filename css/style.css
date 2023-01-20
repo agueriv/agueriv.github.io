@@ -54,9 +54,6 @@ nav {
 	font-weight: 800;
 	transform: scale(1.02);
 }
-#menu ul li a:visited {
-	color: #cccccc;
-}
 #menu ul li a:active {
 	color: #F80303;
 }
