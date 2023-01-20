@@ -14,6 +14,7 @@
 nav {
 	overflow: hidden;/*#096ac1*/
 	background: #000;
+	background-image: url("https://arielguerrero.ml/img/fondo_menu2.jpg");
 	padding: .8em; 
 	padding-left: 12em;
 	padding-right: 12em;
@@ -44,6 +45,9 @@ nav {
 	font-weight: 700;
 	font-size: 1.1em;
 }
+#menu ul li a span {
+	color: #f72a2a;
+}
 #menu ul li a:hover {
 	color: #f72a2a;
 	font-style: italic;
@@ -51,6 +55,9 @@ nav {
 	transform: scale(1.02);
 }
 #menu ul li a:visited {
+	color: #cccccc;
+}
+#menu ul li a:active {
 	color: #F80303;
 }
 
@@ -67,10 +74,12 @@ nav {
 }
 
 /*!! MAIN !!*/
-
+main {
+	
+}
 /*!! FOOTER !!*/
 footer {
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	overflow: hidden;
 	padding: 50px 0px 50px 0px;
 	background: #fff;
@@ -85,16 +94,20 @@ footer h2 {
 	width: 33.333333333%;
 	float: left;
 	/*Sintaxis padding = top right bottom left*/
-	padding: 0px 50px 0px 100px;
+	padding: 0px 30px 0px 100px;
 }
 #col1Footer h2, p {
 	text-align: center;
+}
+#col1Footer p span {
+	font-weight: 600;
+	color: #bb0202;
 }
 /*Columna 2 de Footer*/
 #col2Footer {
 	width: 33.333333333%;
 	float: left;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 30px 0px 25px;
 }
 #col2Footer h2, div {
 	text-align: center;
@@ -111,13 +124,21 @@ footer h2 {
 #col3Footer {
 	width: 33.333333333%;
 	float: left;
-	padding: 0px 100px 0px 50px;
+	padding: 0px 100px 0px 30px;
 }
 #col3Footer h2, p {
 	text-align: center;
 }
 #col3Footer p {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+}
+#col3Footer ul li{
+	list-style-type: none;
+}
+#col3Footer ul li h5 {
+	font-weight: 800;
+	font-size: 1.05em;
+	margin-bottom: 5px;
 }
 /*Barra divisoria footer*/
 .barra-divisoria-footer {
