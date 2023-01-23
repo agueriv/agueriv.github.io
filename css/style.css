@@ -20,6 +20,10 @@ nav {
 	padding-right: 12em;
 	border-bottom: 5px solid #F80303;
 }
+#landing nav {
+	background: none;
+	border: none;
+}
 
 #logo {
 	float: left;
@@ -68,6 +72,24 @@ nav {
 #menu ul li {
 	display: inline;
 	padding: 0.5em;
+}
+/*Cabecera*/
+#landing {	
+	background-image: url("../img/fondo_landing.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#cabecera {
+	padding-top: 350px;
+	padding-bottom: 550px;
+	font-family: 'Eleven';
+	letter-spacing: 7px;
+	color: #ffffff;
+	font-size: 150%;
+}
+#cabecera span {
+	font-style: italic;
 }
 
 /*!! MAIN !!*/
