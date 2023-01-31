@@ -150,6 +150,9 @@ main {
 	padding-left: 1em;
 	padding-right: 1em;
 }
+.container-prod {
+	min-height: 350px;
+}
 
 .logoMarca {
 	margin-bottom: 3em;
