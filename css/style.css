@@ -120,13 +120,21 @@ main {
 	width: 100%;
 	margin-top: 5em;
 	margin-bottom: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
 	overflow: hidden;
 	font-family: 'ElevenItalic';
+}
+.fila-cat div {
+	overflow: hidden;
+	text-align: center;
 }
 .producto {
 	float: left;
 	width: 25%;
 	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 .producto a {
 	text-decoration: none;
@@ -134,6 +142,52 @@ main {
 }
 .producto img:hover {
 	transform: scale(1.02);
+}
+.producto h4 {
+	margin-bottom: .3em;
+}
+.producto h4, p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.logoMarca {
+	margin-bottom: 3em;
+}
+
+.precio {
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	margin-top: 1em;
+	background: transparent;
+}
+.precio div {
+	background-color: rgb(175, 30, 15);
+	padding: 0.6rem 3rem;
+	position: relative;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.precio a {
+	position: relative;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	z-index: 2;
+	
+}
+.precio div:hover {
+	transform: scale(1.05);
+	background-color: #ffffff;
+	border: 2px solid rgb(175, 30, 15);
+	color: rgb(175, 30, 15);
+	box-shadow: 0px 3px 1px 2px rgba(0,0,0,0.1);
+}
+.precio div:hover a {
+	color: rgb(175, 30, 15);
 }
 
 
