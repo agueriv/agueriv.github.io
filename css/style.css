@@ -99,7 +99,68 @@ nav {
 
 /*Cabecera general*/
 .cabecera-general {
+	height: 500px;
+	text-align: center;
+}
+.cabecera-general h1 {
+	margin-top: 140px;
+	color: #ffffff;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 4px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	font-size: 4.4em;
+	text-shadow: #830404 3px 5px 2px;
 	
+}
+
+/* CABECERA CATALOGO*/
+#catalogo-page .cabecera-general {
+	background: url("../img/cabecera-catalogo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* CABECERA NOSOTROS*/
+#nosotros-page .cabecera-general {
+	background: url("../img/cabeceraNosotros.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* CABECERA CONTACTO*/
+#contacto-page .cabecera-general {
+	background: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* CABECERA TALLER*/
+#taller-page .cabecera-general {
+	background: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* CABECERA DODNE ESTAMOS*/
+#dondeestamos-page .cabecera-general {
+	background: url("../img/cabeceraNosotros.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#dondeestamos-page .cabecera-general h1 {
+	font-size: 3.5em;
+	margin-bottom: 0.2em;
+}
+#dondeestamos-page .cabecera-general h2 {
+	font-size: 2em;
+	color: #ffffff;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 4px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	text-shadow: #830404 3px 5px 2px;
 }
 
 /*!! MAIN !!*/
@@ -126,7 +187,7 @@ main {
 	width: 45%;
 }
 #imagen-historia img {
-	border-radius: 100px;
+	border-radius: 20px;
 }
 #texto-historia {
 	float: left;
