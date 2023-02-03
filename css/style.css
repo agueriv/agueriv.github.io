@@ -30,9 +30,10 @@ nav {
 
 #logo {
 	float: left;
+	transition: all 0.5s;
 }
 #logo:hover {
-	transform: scale(1.01);
+	transform: scale(1.02)
 }
 
 #menu {
@@ -133,7 +134,7 @@ main {
 	padding-left: 3em;
 	padding-top: 5em;
 }
-
+/* TARJETAS DE PLANTILLA */
 #plantilla {
 	padding: 5em;
 	padding-left: 7em;
@@ -174,6 +175,16 @@ main {
 	width: 100%;
 	margin-bottom: 1em;
 }
+
+.container-plant h3 {
+	font-size: 1.5em;
+}
+
+.container-plant h5 {
+	color: rgba(0, 0, 0, 0.6);
+	text-transform: uppercase;
+	margin-bottom: 0.7em;
+}
 /*^Main Catálogo Page^*/
 .fila-cat {
 	width: 100%;
@@ -188,8 +199,12 @@ main {
 	overflow: hidden;
 	text-align: center;
 }
+.fila-cat img {
+	transition: all 0.5s;
+	transform: scale(1)
+}
 .fila-cat img:hover {
-	transform: scale(1.02);
+	transform: scale(1.05)
 }
 
 .producto {
@@ -232,6 +247,7 @@ main {
 	position: relative;
 	overflow: hidden;
 	border-radius: 25px;
+	transition: all 0.5s;
 }
 .precio a {
 	position: relative;
@@ -244,7 +260,7 @@ main {
 	
 }
 .precio div:hover {
-	transform: scale(1.05);
+	transform: translateY(-8px);
 	background-color: #ffffff;
 	border: 2px solid rgb(175, 30, 15);
 	color: rgb(175, 30, 15);
@@ -293,9 +309,11 @@ footer h2 {
 .margin-right-8x100 {
 	margin-right: 8%;
 }
-
+.rrss {
+	transition: all 0.25s;
+}
 .rrss:hover {
-	transform: scale(1.1);
+	transform: translateY(-8px);
 }
 /*Columna 3 de Footer*/
 #col3Footer {
