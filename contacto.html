@@ -7,6 +7,9 @@
 		<link href="css/style.css" rel="stylesheet">
 		<meta name="author" content="Ariel Guerrero">
 		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
 	</head>
 	<body id="contacto-page">
 		<header class="cabecera-general">
@@ -16,18 +19,62 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="nosotros.html">Nosotros</a></li>
-						<li><a href="catalogo.html">Catálogo</a></li>
-						<li><a href="taller.html">Taller</a></li>
-						<li><a href="donde-estamos.html">Donde Estamos</a></li>
-						<li><a href="contacto.html"><span>Contacto</span></a></li>
+						<li><a href="index.html" class="underline-menu">Inicio</a></li>
+						<li><a href="nosotros.html" class="underline-menu">Nosotros</a></li>
+						<li><a href="catalogo.html" class="underline-menu">Catálogo</a></li>
+						<li><a href="taller.html" class="underline-menu">Taller</a></li>
+						<li><a href="donde-estamos.html" class="underline-menu">Donde Estamos</a></li>
+						<li><a href="contacto.html" class="underline-menu"><span>Contacto</span></a></li>
 					</ul>
 				</div>
 			</nav>
+			<div>
+				<h1>Vives en esta ciudad?</h1>
+				<h2>Únete a nuestra comunidad</h2>
+			</div>
 		</header>
 		<main>
-			
+			<div id="contact-form">
+				<div class="formulario">			
+			    	<h1 class="underline-form">Formulario de contacto</h1>
+					<h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+					<form>					
+						<p>
+							<label for="nombre" class="colocar_nombre">Nombre
+								<span class="obligatorio">*</span>
+							</label>
+								<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+						</p>
+						<p>
+							<label for="email" class="colocar_email">Email
+								<span class="obligatorio">*</span>
+							</label>
+								<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+						</p>
+						<p>
+							<label for="telefone" class="colocar_telefono">Teléfono
+							</label>
+								<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+						</p>		
+						<p>
+							<label for="asunto" class="colocar_asunto">Asunto
+								<span class="obligatorio">*</span>
+							</label>
+								<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+						</p>		
+						<p>
+							<label for="mensaje" class="colocar_mensaje">Mensaje
+								<span class="obligatorio">*</span>
+							</label>                     
+								 <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+					   </p>	  								
+						<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+						<p class="aviso">
+							<span class="obligatorio"> * </span>los campos son obligatorios.
+						</p>						
+					</form>
+				</div>	
+			</div>
 		</main>
 		<footer>
 			<div id="col1Footer">
