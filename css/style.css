@@ -17,7 +17,7 @@ body {
 nav {
 	overflow: hidden;/*#096ac1*/
 	background: #000;
-	background-image: url("https://arielguerrero.ml/img/fondo_menu2.jpg");
+	background-image: url("../img/fondo_menu.jpg");
 	padding: .8em; 
 	padding-left: 12em;
 	padding-right: 12em;
@@ -77,7 +77,7 @@ nav {
 	display: inline;
 	padding: 0.5em;
 }
-/*Cabecera*/
+/*Cabecera Landing*/
 #landing {	
 	background-image: url("../img/fondo_landing.jpg");
 	background-repeat: no-repeat;
@@ -130,30 +130,18 @@ nav {
 }
 /* CABECERA CONTACTO*/
 #contacto-page .cabecera-general {
-	background: url("");
+	background: url("../img/cabecera_contacto.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
-/* CABECERA TALLER*/
-#taller-page .cabecera-general {
-	background: url("");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-/* CABECERA DODNE ESTAMOS*/
-#dondeestamos-page .cabecera-general {
-	background: url("../img/cabeceraNosotros.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-#dondeestamos-page .cabecera-general h1 {
+
+#contacto-page .cabecera-general h1 {
 	font-size: 3.5em;
 	margin-bottom: 0.2em;
 }
-#dondeestamos-page .cabecera-general h2 {
+#contacto-page .cabecera-general h2 {
 	font-size: 2em;
 	color: #ffffff;
 	font-family: 'Anton', sans-serif;
@@ -162,10 +150,21 @@ nav {
 	text-transform: uppercase;	
 	text-shadow: #830404 3px 5px 2px;
 }
-
-/*!! MAIN !!*/
-main {
-	
+/* CABECERA TALLER*/
+#taller-page .cabecera-general {
+	background: url("../img/cabecera_taller.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+/* CABECERA DODNE ESTAMOS*/
+#dondeestamos-page .cabecera-general {
+	background: url("../img/cabecera-dondeestamos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
 }
 
 /*^Main Nosotros Page^*/
@@ -193,7 +192,22 @@ main {
 	float: left;
 	width: 55%;
 	padding-left: 3em;
-	padding-top: 5em;
+	margin-top: 2.2em;
+}
+#texto-historia p {
+	text-align: justify;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+#texto-historia p a {
+	text-decoration: none;
+	color: #830404;
+	font-weight: 600;
+}
+#texto-historia blockquote {
+	font-size: 1.2em;
+	font-weight: 500;
+	font-style: italic;
 }
 /* TARJETAS DE PLANTILLA */
 #plantilla {
@@ -246,6 +260,11 @@ main {
 	text-transform: uppercase;
 	margin-bottom: 0.7em;
 }
+
+.container-plant p {
+	padding-left: 1em;
+	padding-right: 1em;	
+}
 /*^Main Catálogo Page^*/
 .fila-cat {
 	width: 100%;
@@ -283,7 +302,7 @@ main {
 .producto h4 {
 	margin-bottom: .3em;
 }
-.producto h4, p {
+.producto h4, .producto p {
 	padding-left: 1em;
 	padding-right: 1em;
 }
@@ -331,6 +350,226 @@ main {
 	color: rgb(175, 30, 15);
 }
 
+/*^Main Donde Estamos Page^*/
+#dondeestamos-page main {
+	overflow: hidden;
+	padding: 5em;
+}
+#dondeestamos-page main div {
+	float: left;
+	width: 50%;
+}
+#iframe {
+	text-align: center;
+	padding-right: 10em;
+}
+#iframe iframe {
+	border-radius: 15px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	transition: all 0.4s;
+}
+#iframe iframe:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+#ubi-text {
+	text-align: center;
+	padding-left: 10em;
+	padding-top: 10em;
+}
+#ubi-text h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	margin-bottom: 0.4em;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+#ubi-text h5 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin-bottom: 0.1em;
+	color: rgba(0, 0, 0, 0.631):
+}
+#ubi-text p {
+	font-family: 'Montserrat', sans-serif;
+	color: #7d7c7c;
+}
+
+/*^Main Contacto Page^*/
+#contacto-page main {
+	padding: 5em;
+	overflow: hidden;
+}
+
+/*^Main Taller Page^*/
+#taller-page main {
+	padding: 7em;
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+
+#taller-page .container {
+	float: left;
+	width: 50%;
+	padding: 2em;
+}
+
+#reparacion {
+	border: 3px solid black;
+	height: 100px;
+	border-radius: 15px;
+}
+
+#modificacion {
+	border: 3px solid black;
+	border-radius: 15px;
+	height: 100px;
+}
+
+/* FORMULARIO DE CONTACTO */
+#contact-form {
+	width: 100%;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.formulario input{
+	background-color: #ffffff; 
+	width: 40em; 
+	height: 40px; 
+	border-radius: 5px;  
+	border: 2px solid rgba(131, 4, 4, 0.509);
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+.formulario textarea{
+  	background-color: #ffffff; 
+	width: 40em; 
+	height: 150px; 
+	border-radius: 5px;  
+	border: 2px solid rgba(131, 4, 4, 0.509);
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+.formulario label{
+  	display: block; 
+	float: center; 	
+	font-weight: 600;
+}
+
+#enviar{
+	height: 45px; 	
+	margin-bottom: 0.4em;
+	text-transform: uppercase;
+	background-color: #830404; 
+	border: solid #830404;
+	border-radius: 15px;	
+	width: 30em;   
+    cursor: pointer;
+	transition: all 0.3s;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#enviar p{
+	color: #fff; 
+	font-weight: 700;
+}
+
+#enviar:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.obligatorio{
+	color: #830404; 
+}
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+.formulario h1{
+	font-size: 3em;  
+	text-align: letf; 
+	margin-bottom: 0.3em;
+	color: #000000;
+}
+
+.formulario h3{
+	font-size: 1em; 
+	padding-bottom: 1.2em;
+	color: #0e0e0e;   
+}
+
+.formulario p{
+	font-size: 1em; 
+	color: #0e0e0e; 
+}
+
+.formulario input:focus{
+	outline:0;
+	border: 2px solid #F80303;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 2px solid #F80303;
+}
+
+/*Clase underline para efecto de subrayado animado de textos*/
+.underline {
+	display: inline-block;
+	position: relative;
+}
+.underline:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	bottom: 0;
+	left: 0;
+	background-color: #f72a2a;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.4s ease-out;
+}
+.underline:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+/*Underline Menú*/
+.underline-menu {
+	display: inline-block;
+	position: relative;
+}
+.underline-menu:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f72a2a;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.3s ease-out;
+}
+.underline-menu:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
 /*!! FOOTER !!*/
 footer {
 	font-family: 'Montserrat', sans-serif;
@@ -350,7 +589,7 @@ footer h2 {
 	/*Sintaxis padding = top right bottom left*/
 	padding: 0px 30px 0px 100px;
 }
-#col1Footer h2, p {
+#col1Footer h2, #col1Footer p {
 	text-align: center;
 }
 #col1Footer p span {
@@ -382,7 +621,7 @@ footer h2 {
 	float: left;
 	padding: 0px 100px 0px 30px;
 }
-#col3Footer h2, p {
+#col3Footer h2, #col3Footer p {
 	text-align: center;
 }
 #col3Footer p {
