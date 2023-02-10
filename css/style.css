@@ -187,6 +187,7 @@ nav {
 }
 #imagen-historia img {
 	border-radius: 20px;
+	width: 100%;
 }
 #texto-historia {
 	float: left;
