@@ -389,7 +389,7 @@ nav {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	margin-bottom: 0.1em;
-	color: rgba(0, 0, 0, 0.631):
+	color: rgba(0, 0, 0, 0.631);
 }
 #ubi-text p {
 	font-family: 'Montserrat', sans-serif;
@@ -545,7 +545,6 @@ nav {
 
 .formulario label{
   	display: block; 
-	float: center; 	
 	font-weight: 600;
 }
 
@@ -583,7 +582,6 @@ nav {
 
 .formulario h1{
 	font-size: 3em;  
-	text-align: letf; 
 	margin-bottom: 0.3em;
 	color: #000000;
 }
@@ -710,6 +708,9 @@ footer h2 {
 }
 #col2Footer h2, div {
 	text-align: center;
+}
+#col2Footer img {
+	width: 75px;
 }
 /*Iconos redes sociales*/
 .margin-right-8x100 {
