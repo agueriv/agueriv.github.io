@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number App - Ariel Guerrero</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <!-- Fuente Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="main" class="main">
+        <h1>Guess my secret number</h1>
+        <h2 id="displayNumSecreto">?</h2>
+        <p id="retroalimentacion"></p>
+        <div class="controls">
+            <input id="numCandidato" type="text" name="numCandidato" placeholder="¿Qué número crees que es?" />
+            <button id="checkBtn" type="button" onclick="checkTry()">Check</button>
+        </div>
+
+        <div class="containerTrys">
+            <h4 id="menor">Smallest nearest number</h4>
+            <p id="numMenor">?</p>
+            <h4 id="mayor">Nearest whole number</h4>
+            <p id="numMayor">?</p>
+        </div>
+    </div>
+
+    <div id="volverAJugar" class="volverAJugar">
+        <h2>¿Do you want to play again?</h2>
+        <div class="controls">
+            <button id="siBtn" type="button" onclick="newPlay('si')">YES!</button>
+            <button id="noBtn" type="button" onclick="newPlay('no')" NO</button>
+        </div>
+        <p></p>
+    </div>
+
+    <!-- Archivos JavaScript -->
+    <script src="js/Partida.js"></script>
+    <script src="js/adivinaNum.js"></script>
+</body>
+
+</html>
