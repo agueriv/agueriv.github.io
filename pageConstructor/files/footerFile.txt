@@ -1,3 +1,0 @@
-<footer>
-    <p>Este es el footer de prueba para el proyecto de carmelo</p>
-</footer>

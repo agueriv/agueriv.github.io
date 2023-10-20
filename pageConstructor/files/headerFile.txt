@@ -1,3 +1,0 @@
-<header>
-    <h1>Prueba de header (Proyecto)</h1>
-</header>
